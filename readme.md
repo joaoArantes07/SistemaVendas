@@ -12,11 +12,18 @@ Amazon, Magazine Luiza, Lojas Americanas
 
  
 
+
+
+
 Linguagem 
 
 Pelo fato de se tratar de um sistema de vendas voltado para o público geral, que será usado por todos que tenham noção de compra básica (portanto sendo necessária matemática básica) e noção de leitura simples, a linguagem usada será a linguagem textual coloquial sem gírias. 
 
  
+
+
+
+
 
 Descrição do sistema 
 
