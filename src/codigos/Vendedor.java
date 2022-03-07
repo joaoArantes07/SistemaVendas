@@ -3,10 +3,20 @@ package codigos;
 public class Vendedor {
 	private String senha;
 	private long cnpj;
-	private String mei;
+	private boolean mei;
 	private String email;
 	private long telefone;
 	private String categoria;
+	
+	public Vendedor(String senha,long cnpj,boolean mei,String email,long telefone, String categoria) {
+		this.senha = senha;
+		this.cnpj = cnpj;
+		this.mei = mei;
+		this.email = email;
+		this.telefone = telefone;
+		this.categoria = categoria;
+	}
+	
 	
 	public String getSenha() {
 		return senha;
@@ -20,10 +30,10 @@ public class Vendedor {
 	public void setCnpj(long cnpj) {
 		this.cnpj = cnpj;
 	}
-	public String getMei() {
+	public boolean getMei() {
 		return mei;
 	}
-	public void setMei(String mei) {
+	public void setMei(boolean mei) {
 		this.mei = mei;
 	}
 	public String getEmail() {
@@ -44,4 +54,5 @@ public class Vendedor {
 	public void setCategoria(String categoria) {
 		this.categoria = categoria;
 	}
+	
 }
